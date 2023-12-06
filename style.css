@@ -3,54 +3,50 @@
 }
 
 body{
-    background-color: rgb(107, 107, 243);
+    background-color: #959a96;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div{
     border:1px solid black;
-    /* margem interna */
+    
     padding: 30px;
     color: white;
 }
 
 .container{
     max-width:900px;
-    margin:auto; /* centraliza a proria div*/
+    margin:auto; 
     padding:0;
 }
 
 .topo{
-    background-color: rgb(0, 183, 255);
+    background-color: #1a4301;
     text-align: center;
 }
 .nav{
-    background-color: rgb(0,183,255);
+    background-color: #245501;
     display:flex;
     justify-content:space-around;
 }
 .principal{
-    background-color: rgb(0,183,255);
+    background-color: #538d22;
     text-align: center;
 }
 .rodape{
-    background-color: rgb(0,183,255);
+    background-color: #73a942;
     text-align: center;
 }
-.gui{
-    background-color: rgb(0,183,255);
+.criacao{
+    background-color: #143601;
     text-align:justify;
 }
 
-.gui h1{
-    text-align: center;
-}
-
-.gui img{
+.criacao h1{
     text-align: center;
 }
 
 .sobre{
-    background-color: rgb(0,183,255);
+    background-color: #aad576;
     text-align: center;
 }
