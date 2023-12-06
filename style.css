@@ -1,0 +1,56 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(107, 107, 243);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    border:1px solid black;
+    /* margem interna */
+    padding: 30px;
+    color: white;
+}
+
+.container{
+    max-width:900px;
+    margin:auto; /* centraliza a proria div*/
+    padding:0;
+}
+
+.topo{
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+}
+.nav{
+    background-color: rgb(0,183,255);
+    display:flex;
+    justify-content:space-around;
+}
+.principal{
+    background-color: rgb(0,183,255);
+    text-align: center;
+}
+.rodape{
+    background-color: rgb(0,183,255);
+    text-align: center;
+}
+.gui{
+    background-color: rgb(0,183,255);
+    text-align:justify;
+}
+
+.gui h1{
+    text-align: center;
+}
+
+.gui img{
+    text-align: center;
+}
+
+.sobre{
+    background-color: rgb(0,183,255);
+    text-align: center;
+}
